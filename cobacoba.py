@@ -23,7 +23,7 @@ print("Pekerjaan : " + pekerjaan);
 
 
 try:
-  print(1)
+  print(2)
   print(20 / 0)
   print(2)
 except ZeroDivisionError:
