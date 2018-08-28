@@ -1,0 +1,51 @@
+/* body {
+    background: url(../images/avengers-infinity-war_20180423_001907.jpg);
+    background-position: left top;
+    background-size: 100% 100%;
+
+} */
+/* h1  {    
+     font-family: 'Kaushan Script';
+     line-height: 50%; 
+     letter-spacing: 2px; 
+     word-spacing: 4px;
+     text-align: left;
+     text-indent: 2rem;
+} */
+.box {
+    margin: auto;
+    color: white;
+    font-family: "Kaushan Script";
+    font-size: 20px;
+    transition: 1s;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: yellow; 
+    position: relative;
+    /* transform: rotate(45deg); */
+    /* transform: skew(5deg,10deg); */
+}
+
+.box:hover {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-color:red; 
+    transform: rotate(7200deg);
+    position: relative;
+    /* transform: skew(5deg,10deg); */
+}
+
+.box:active {background-color: antiquewhite}
+
+input:focus {
+    background-color: lightgreen;}
+
+input:hover {
+    background-color: brown
+}
+
+input:active {
+    background-color: aliceblue
+}
